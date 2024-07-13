@@ -1,0 +1,29 @@
+GET http://localhost:1234/movies
+######
+GET http://localhost:1234/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+
+####
+GET http://localhost:1234/movies?genre=action
+
+####
+
+POST http://localhost:1234/movies
+Content-Type: application/json
+
+{
+    "sql": "ssdfsd",
+    "title": "challengers",
+    "year": 2024,
+    "director": "Luca guadagnino",
+    "duration": 110,
+    "poster": "https://pics.filmaffinity.com/Rivales-325765300-mmed.jpg",
+    "genre": ["Drama","Romance"]
+}
+
+####
+PATCH http://localhost:1234/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+Content-Type: application/json
+
+{
+    "year":2004
+}
