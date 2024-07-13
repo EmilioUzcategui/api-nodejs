@@ -1,11 +1,11 @@
 const express=require('express')
 const app = express()
-const movies = require('../movies.json')
+const movies = require('./movies.json')
 const cors = require('cors')
 const z= require('zod')
 app.use(cors())
 const crypto= require("node:crypto")
-const { validateMovie, validatePartialMovie } = require('../schemes/movies')
+const { validateMovie, validatePartialMovie } = require('./schemes/movies')
 const { error } = require('node:console')
 
 app.use(express.json())

@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Documentos/curso-github/api-nodejs"
+		},
+		{
+			"path": "../node_modules"
+		},
+		{
+			"path": "../schemes"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
